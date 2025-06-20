@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 
-// Simple Button component
 const Button = ({ children, className = "", variant = "default", size = "default", ...props }: any) => {
   const baseClasses = "inline-flex items-center justify-center rounded-md font-medium transition-colors"
   const variantClasses = variant === "ghost" ? "hover:bg-gray-800" : "bg-gray-700 hover:bg-gray-600"
@@ -14,40 +13,6 @@ const Button = ({ children, className = "", variant = "default", size = "default
     </button>
   )
 }
-
-// Simple icons as SVG components
-const Gamepad2 = ({ className }: { className?: string }) => (
-  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4v1m4-1v1"
-    />
-  </svg>
-)
-
-const Brain = ({ className }: { className?: string }) => (
-  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-    />
-  </svg>
-)
-
-const Trophy = ({ className }: { className?: string }) => (
-  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-    />
-  </svg>
-)
 
 const Github = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
@@ -77,7 +42,6 @@ const Monitor = ({ className }: { className?: string }) => (
   </svg>
 )
 
-// Enhanced Glitch effect component
 const GlitchText = ({ children, className = "" }: { children: string; className?: string }) => {
   const [glitchActive, setGlitchActive] = useState(false)
   const [glitchText1, setGlitchText1] = useState("")
