@@ -187,14 +187,34 @@ export default function Component() {
           </div>
 
           <p className="text-2xl md:text-3xl font-bold text-cyan-400 tracking-wide pixel-font">Code. Train. Conquer.</p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "BUILD GAME",
+                iconColor: "text-green-400",
+              },
+              {
+                title: "TRAIN AGENT",
+                iconColor: "text-cyan-400",
+              },
+              {
+                title: "GET COMPUTE",
+                iconColor: "text-yellow-400",
+              },
+            ].map((step, index) => (
+              <div key={step.title} className="text-center">
+                <div className={`${step.iconColor} mx-auto mb-4`}>{step.icon}</div>
+                <h3 className="text-xl font-bold text-white pixel-font text-sm">{step.title}</h3>
+              </div>
+            ))}
+          </div>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed game-text">
-            Hey there, future AI wizard! 🧙‍♂️ Ready to build something absolutely WILD?
+            This is your chance to learn how to build systems that can learn how to do anything without using any data you can't generate. All you need is the right setup and an environment to play in. 
             <br />
             <br />
-            This isn't just another coding challenge - it's your chance to create digital creatures that learn, adapt,
-            and maybe even surprise you. We're talking about building AI agents that can master games through pure trial
-            and error, just like how you learned to ride a bike (but way cooler and with more explosions... probably).
+            This is what major AI companies use to make their models better once they're done training on the internet, how "reasoning" works, and how Google built systems that could beat the greatest Go champions.    
+
           </p>
 
           {/* Single AI Agent Video Showcase */}
@@ -210,57 +230,22 @@ export default function Component() {
         </div>
       </section>
 
-      {/* Challenge Flow Section */}
-      <section className="py-20 px-4 relative">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-cyan-400 pixel-font">THE CHALLENGE</h2>
-
-          <p className="text-center text-gray-300 mb-16 max-w-3xl mx-auto game-text text-lg">
-            Look, I'm not gonna lie - this is gonna be tough. But the best things always are, right? Here's what you're
-            signing up for (and trust me, it's worth it):
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-
-                title: "BUILD YOUR GAME",
-                iconColor: "text-green-400",
-              },
-              {
-                title: "TRAIN YOUR AI",
-                iconColor: "text-cyan-400",
-              },
-              {
-                title: "WATCH IT WIN",
-                iconColor: "text-yellow-400",
-              },
-            ].map((step, index) => (
-              <div key={step.title} className="text-center">
-                <div className={`${step.iconColor} mx-auto mb-4`}>{step.icon}</div>
-                <h3 className="text-xl font-bold text-white pixel-font text-sm">{step.title}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-20 px-4 bg-gray-900/50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-white pixel-font">FAQ</h2>
 
           <p className="text-center text-gray-300 mb-16 game-text text-lg">
-            Got questions? We've got answers! (Well, we will once we add them here 😅)
+            
           </p>
 
           <div className="space-y-4">
             <div className="px-6">
               <details className="group">
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
-                  FAQ QUESTION 1<span className="transition-transform group-open:rotate-180">▼</span>
+                  What do I get? <span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 1 - Add your content here</div>
+                <div className="text-gray-300 game-text pb-4">FAQ Answer 1</div>
               </details>
             </div>
 
@@ -269,7 +254,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   FAQ QUESTION 2<span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 2 - Add your content here</div>
+                <div className="text-gray-300 game-text pb-4">FAQ Answer 2</div>
               </details>
             </div>
 
@@ -278,7 +263,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   FAQ QUESTION 3<span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 3 - Add your content here</div>
+                <div className="text-gray-300 game-text pb-4">FAQ Answer 3</div>
               </details>
             </div>
           </div>
@@ -291,7 +276,7 @@ export default function Component() {
           <div>
             <GlitchText className="text-2xl font-bold mb-4 pixel-font">REINFORCED</GlitchText>
             <p className="text-gray-400 mb-6 game-text">
-              A Hack Club YSWS Challenge - Made with ❤️ for AI enthusiasts who aren't afraid to break things
+              A Hack Club YSWS
             </p>
             <div className="flex justify-center space-x-6">
               <Button variant="ghost" size="sm" className="text-gray-400 hover:text-cyan-400 game-text">
