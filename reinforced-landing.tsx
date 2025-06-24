@@ -214,7 +214,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   What do I get? <span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 1</div>
+                <div className="text-gray-300 game-text pb-4">Two months of Colab Pro (100 compute units per month + better GPUs and longer availabilities). </div>
               </details>
             </div>
 
@@ -223,7 +223,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   How long will this take me?<span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">I'd estimate about 14 hours of work realistically. I'll be working 1-on-1 with you along the way, though, so don't worry if that sounds daunting. </div>
+                <div className="text-gray-300 game-text pb-4">I'd estimate about 14 hours of work realistically. You will be tracking all of your time using Hackatime (I'd recommend writing your code in VSCode and then running on a GPU in Colab). I'll be working 1-on-1 with you along the way, though, so don't worry if 14 hours sounds daunting. </div>
               </details>
             </div>
 
