@@ -80,7 +80,7 @@ export default function Tutorial() {
                         here
                     </a>{" "}
                     <br />
-                    - Find me on Slack (Vihaan Sondhi) or email (vihaan.sondhi@teenhacksli.com) if you have any questions or need help understanding something. 
+                    - Find me on Slack (@Vihaan Sondhi) and join the Slack (linked below) if you have any questions or need help understanding something. We'll be working closely one on one throughout the process anyway so don't be shy! It's better to be safe than waste hours later.  
                     <br />
                     Once you're done with all of this, contact me using the methods above and I'll send you a brief quiz (no pressure!)
                   </p>
@@ -92,20 +92,25 @@ export default function Tutorial() {
                   <p className="game-text">
                     - Send me your game idea for approval. I'll help you brainstorm the structure of the game so that it's a good environment for RL down the road.  
                     <br />
-                    - The game can be an entirely new game of your creation or a version of an existing game (wordle, snake, pong etc).
+                    - The game can be an entirely new game of your creation or a version of an existing game (wordle, snake, pong, etc).
                     <br />
-                    - Build the game using vanilla Python, Pygame, or Unity (highly recommended). 
+                    - Build the game using vanilla Python, Pygame, or Unity. If you want to have both a clean-looking game and a relatively easy approach to solving your game with RL, I highly recommend the last.  
                   </p>
                 </div>
 
                 <div className="border-4 border-gray-700 rounded-lg p-6">
                   <h2 className="text-2xl font-bold text-white mb-4 pixel-font text-lg">TRAINING YOUR AGENT</h2>
                   <p className="game-text"> 
-                    - We'll decide on what algorithm to use together and I'll provide a template (or your can use Unity's  
+                    - We'll decide on what algorithm to use together and I'll provide a template. You can use Unity's  
                     {" "}
                     <a href="https://github.com/Unity-Technologies/ml-agents" target="_blank" rel="noopener noreferrer" className="text-cyan-400 underline hover:text-cyan-300">
                         ML-Agents
-                    </a>{" "} if you built the game with Unity). 
+                    </a>{" "} if you built the game with Unity. 
+                    <br /> 
+                    Once you're done, submit {" "}
+                    <a href="https://forms.hackclub.com/t/7ZoxrDjDtius" target="_blank" rel="noopener noreferrer" className="text-cyan-400 underline hover:text-cyan-300">
+                        here
+                    </a>{" "}
                     </p>
                 </div>
               </div>
