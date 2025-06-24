@@ -248,14 +248,19 @@ export default function Component() {
               A Hack Club YSWS
             </p>
             <div className="flex justify-center space-x-6">
-              <Button variant="ghost" size="sm" className="text-gray-400 hover:text-cyan-400 game-text">
-                <Github className="w-4 h-4 mr-2" />
-                GITHUB
-              </Button>
-              <Button variant="ghost" size="sm" className="text-gray-400 hover:text-cyan-400 game-text">
-                <MessageSquare className="w-4 h-4 mr-2" />
-                SLACK
-              </Button>
+              <a href="https://github.com/MntRushmore/reinforced-website" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-gray-400 hover:text-cyan-400 game-text">
+                  <Github className="w-4 h-4 mr-2" />
+                  GITHUB
+                </Button>
+              </a>
+              
+              <a href="https://hackclub.slack.com/archives/C092JUZ7V7Y" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-gray-400 hover:text-cyan-400 game-text">
+                  <MessageSquare className="w-4 h-4 mr-2" />
+                  SLACK
+                </Button>
+              </a>
             </div>
           </div>
         </div>
