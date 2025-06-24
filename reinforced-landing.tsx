@@ -182,13 +182,18 @@ export default function Component() {
           </p>
 
           {/* Single AI Agent Video Showcase */}
-          <div className="flex justify-center items-center py-8">
-            <div className="w-96 h-64 bg-gray-800 rounded-lg flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <Monitor className="w-16 h-16 text-cyan-400 mx-auto animate-pulse" />
-                <p className="text-gray-300 game-text">AI AGENT DEMO VIDEO</p>
-                <p className="text-sm text-gray-500 game-text">COMING SOON...</p>
-              </div>
+           <div className="flex justify-center items-center py-8">
+            <div className="w-96 h-64 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden">
+              <video
+                className="w-full h-full object-cover"
+                src="/demo-video-actual.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
@@ -216,18 +221,18 @@ export default function Component() {
             <div className="px-6">
               <details className="group">
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
-                  FAQ QUESTION 2<span className="transition-transform group-open:rotate-180">▼</span>
+                  How long will this take me?<span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 2</div>
+                <div className="text-gray-300 game-text pb-4">I'd estimate about 14 hours of work realistically. I'll be working 1-on-1 with you along the way, though, so don't worry if that sounds daunting. </div>
               </details>
             </div>
 
             <div className="px-6">
               <details className="group">
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
-                  FAQ QUESTION 3<span className="transition-transform group-open:rotate-180">▼</span>
+                  How can I contact you? <span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">FAQ Answer 3</div>
+                <div className="text-gray-300 game-text pb-4">vihaan.sondhi@teenhacksli.com and @Vihaan Sondhi on Slack. </div>
               </details>
             </div>
           </div>
