@@ -174,10 +174,10 @@ export default function Component() {
           </div>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed game-text">
-            This is your chance to learn how to build systems that can learn how to do anything without using any data you can't generate. All you need is the right setup and an environment to play in. 
+            If you're 18 or younger, this is your chance to get actual experience building something awesome. 
             <br />
             <br />
-            This is what major AI companies use to make their models better once they're done training on the internet, how "reasoning" works, and how Google built systems that could beat the greatest Go champions.    
+            Major AI labs use RL to make their models better once they're done training on the internet, enable "reasoning", and beat Go champions.    
 
           </p>
 
@@ -232,7 +232,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   How can I contact you? <span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">vihaan.sondhi@teenhacksli.com and @Vihaan Sondhi on Slack. </div>
+                <div className="text-gray-300 game-text pb-4">vihaan.sondhi@teenhacksli.com and @Vihaan Sondhi on the Hack Club Slack. </div>
               </details>
             </div>
           </div>
