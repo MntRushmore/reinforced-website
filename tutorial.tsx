@@ -80,7 +80,7 @@ export default function Tutorial() {
                         here
                     </a>{" "}
                     <br />
-                    - Find me on Slack (@Vihaan Sondhi) and join the Slack (linked below) if you have any questions or need help understanding something. We'll be working closely one on one throughout the process anyway so don't be shy! It's better to be safe than waste hours later.  
+                    - Find me on the Hack Club Slack (@Vihaan Sondhi) and join #reinforced (linked at the bottom) if you have any questions or need help understanding something. We'll be working closely one on one throughout the process anyway so don't be shy! It's better to be safe than waste hours later.  
                     <br />
                     Once you're done with all of this, contact me using the methods above and I'll send you a brief quiz (no pressure!)
                   </p>
