@@ -214,7 +214,7 @@ export default function Component() {
                 <summary className="text-white hover:text-cyan-400 game-text cursor-pointer py-4 flex justify-between items-center">
                   What do I get? <span className="transition-transform group-open:rotate-180">▼</span>
                 </summary>
-                <div className="text-gray-300 game-text pb-4">Two months of Colab Pro (100 compute units per month + better GPUs and longer availabilities). </div>
+                <div className="text-gray-300 game-text pb-4"> $50 towards any training service. Five months of Colab Pro is the default (100 compute units per month + better GPUs and longer availabilities). </div>
               </details>
             </div>
 
